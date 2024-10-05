@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.26)  5 OCT 2024 15:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.26)  5 OCT 2024 17:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -897,15 +897,15 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.2.36
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.447 \end{equation}
+l.448 \end{equation}
                     ] [9]
-Overfull \hbox (0.78171pt too wide) detected at line 538
+Overfull \hbox (0.78171pt too wide) detected at line 539
  []$[]  \U/rsfs/m/n/10.95 S[]\OT1/cmr/m/n/10.95 [\OML/cmm/m/it/10.95 '\OT1/cmr/
 m/n/10.95 ] = [] []$ 
  []
 
 [10]
-Overfull \hbox (0.94444pt too wide) detected at line 578
+Overfull \hbox (0.94444pt too wide) detected at line 579
 [][][]\OML/cmm/m/it/10.95 V[]  \OT1/cmr/m/n/10.95 =  []  [] \OML/cmm/m/it/10.95
  ;
  []
@@ -915,88 +915,86 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.2.54
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.587 \section
+l.588 \section
               {Renormalized Length of Boundary-Bulk-Boundary Geodesic}]
-Overfull \hbox (8.34404pt too wide) detected at line 614
+Overfull \hbox (8.34404pt too wide) detected at line 615
  []$[] [] \OML/cmm/m/it/10.95 ;$ []  
  []
 
 [12] [13]
 
 Package amsmath Warning: Cannot use `split' here;
-(amsmath)                trying to recover with `aligned' on input line 667.
+(amsmath)                trying to recover with `aligned' on input line 668.
 
 [14] [15] [16] [17] [18
 pdfTeX warning (ext4): destination with the same identifier (name{equation.5.2}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.798 \end{equation}
+l.799 \end{equation}
                     
 pdfTeX warning (ext4): destination with the same identifier (name{equation.5.2}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.798 \end{equation}
+l.799 \end{equation}
                     ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 811.
+(hyperref)                removing `math shift' on input line 812.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\varphi' on input line 811.
+(hyperref)                removing `\varphi' on input line 812.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 811.
+(hyperref)                removing `math shift' on input line 812.
 
 [19
 pdfTeX warning (ext4): destination with the same identifier (name{equation.5.5}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.845 \begin{equation}
+l.846 \begin{equation}
                       ] [20] [21
 pdfTeX warning (ext4): destination with the same identifier (name{equation.B.3}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.894 
+l.895 
       ] [22
 pdfTeX warning (ext4): destination with the same identifier (name{equation.C.1}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.932 \end{equation}
+l.933 \end{equation}
                     ]
-<Pics/1.png, id=603, 398.6895pt x 382.42876pt>
+<Pics/1.png, id=603, 277.035pt x 260.172pt>
 File: Pics/1.png Graphic file (type png)
 <use Pics/1.png>
-Package pdftex.def Info: Pics/1.png  used on input line 946.
-(pdftex.def)             Requested size: 152.4303pt x 146.21141pt.
-<Pics/2.png, id=605, 370.986pt x 242.70676pt>
-File: Pics/2.png Graphic file (type png)
-<use Pics/2.png>
-Package pdftex.def Info: Pics/2.png  used on input line 952.
-(pdftex.def)             Requested size: 195.98181pt x 128.21547pt.
+Package pdftex.def Info: Pics/1.png  used on input line 949.
+(pdftex.def)             Requested size: 195.98181pt x 184.05247pt.
+<Pics/2p.png, id=605, 437.83575pt x 271.61475pt>
+File: Pics/2p.png Graphic file (type png)
+<use Pics/2p.png>
+Package pdftex.def Info: Pics/2p.png  used on input line 957.
+(pdftex.def)             Requested size: 326.63635pt x 202.64127pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[23 <./Pics/1.png>]
+[23 <./Pics/1.png>] [24 <./Pics/2p.png>]
 
-Package natbib Warning: Citation `aldrovandi_1997' on page 24 undefined on inpu
-t line 987.
+Package natbib Warning: Citation `aldrovandi_1997' on page 25 undefined on inpu
+t line 992.
 
-[24 <./Pics/2.png>]
-<Pics/3.png, id=644, 551.05875pt x 320.397pt>
-File: Pics/3.png Graphic file (type png)
-<use Pics/3.png>
-Package pdftex.def Info: Pics/3.png  used on input line 992.
-(pdftex.def)             Requested size: 250.4212pt x 145.59996pt.
- [25 <./Pics/3.png>] [26] (./Holography.OrbifoldRS.bbl
-[27] [28])
+<Pics/3p.png, id=642, 519.74174pt x 333.04425pt>
+File: Pics/3p.png Graphic file (type png)
+<use Pics/3p.png>
+Package pdftex.def Info: Pics/3p.png  used on input line 997.
+(pdftex.def)             Requested size: 326.63635pt x 209.31079pt.
+[25 <./Pics/3p.png>] [26] (./Holography.OrbifoldRS.bbl [27] [28])
 
 Package natbib Warning: There were undefined citations.
 
@@ -1005,24 +1003,17 @@ Package natbib Warning: There were undefined citations.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-Package rerunfilecheck Warning: File `Holography.OrbifoldRS.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Holography.OrbifoldRS.out':
-(rerunfilecheck)             Before: B4E805512041896F34A19AB0359B8EA3;822
-(rerunfilecheck)             After:  637D497FD96F8A00BCCBC109CB1485FA;2770.
+Package rerunfilecheck Info: File `Holography.OrbifoldRS.out' has not changed.
+(rerunfilecheck)             Checksum: 637D497FD96F8A00BCCBC109CB1485FA;2770.
  ) 
 Here is how much of TeX's memory you used:
- 25216 strings out of 474116
- 451123 string characters out of 5747717
+ 25215 strings out of 474116
+ 451122 string characters out of 5747717
  1949190 words of memory out of 5000000
- 46856 multiletter control sequences out of 15000+600000
+ 46855 multiletter control sequences out of 15000+600000
  601610 words of font info for 165 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,20n,107p,1828b,746s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,20n,107p,1828b,728s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <e:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><e:/tex
 live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><e:/texlive/2024
 /texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><e:/texlive/2024/texm
@@ -1038,37 +1029,36 @@ dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><e:/texlive/2024/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmr10.pfb><e:/texlive/2024/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmr5.pfb><e:/texlive/2024/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmr6.pfb><e:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr7.pfb><e:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><e
-:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><e:/texlive/2
-024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><e:/texlive/2024/texmf
--dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><e:/texlive/2024/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb><e:/texlive/2024/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy5.pfb><e:/texlive/2024/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy6.pfb><e:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy8.pfb><e:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
-><e:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb><e:/t
-exlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><e:/texli
-ve/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam5.pfb><e:/texlive/20
-24/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb><e:/texlive/2024/te
-xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><e:/texlive/2024/texmf-
-dist/fonts/type1/public/rsfs/rsfs10.pfb><e:/texlive/2024/texmf-dist/fonts/type1
-/public/cm-super/sfbx1000.pfb><e:/texlive/2024/texmf-dist/fonts/type1/public/cm
--super/sfbx1095.pfb><e:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfb
-x1200.pfb><e:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb>
-<e:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb><e:/texliv
-e/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><e:/texlive/2024/tex
-mf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><e:/texlive/2024/texmf-dist/fo
-nts/type1/public/cm-super/sfrm0900.pfb><e:/texlive/2024/texmf-dist/fonts/type1/
-public/cm-super/sfrm1000.pfb><e:/texlive/2024/texmf-dist/fonts/type1/public/cm-
-super/sfrm1095.pfb><e:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfsx
-1095.pfb><e:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><
-e:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><e:/texlive
-/2024/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb><e:/texlive/2024/texm
-f-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on Holography.OrbifoldRS.pdf (30 pages, 903201 bytes).
+cmr8.pfb><e:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><e
+:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><e:/texlive
+/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><e:/texlive/2024/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><e:/texlive/2024/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy5.pfb><e:/texlive/2024/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy6.pfb><e:/texlive/2024/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb><e:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy9.pfb><e:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/euler/eufm1
+0.pfb><e:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pf
+b><e:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam5.pfb><e:
+/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb><e:/texl
+ive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><e:/texlive/
+2024/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb><e:/texlive/2024/texmf-dist/
+fonts/type1/public/cm-super/sfbx1000.pfb><e:/texlive/2024/texmf-dist/fonts/type
+1/public/cm-super/sfbx1095.pfb><e:/texlive/2024/texmf-dist/fonts/type1/public/c
+m-super/sfbx1200.pfb><e:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sf
+cc1000.pfb><e:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb
+><e:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><e:/texli
+ve/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><e:/texlive/2024/te
+xmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><e:/texlive/2024/texmf-dist/f
+onts/type1/public/cm-super/sfrm1000.pfb><e:/texlive/2024/texmf-dist/fonts/type1
+/public/cm-super/sfrm1095.pfb><e:/texlive/2024/texmf-dist/fonts/type1/public/cm
+-super/sfsx1095.pfb><e:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfs
+x1728.pfb><e:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
+<e:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb><e:/texliv
+e/2024/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on Holography.OrbifoldRS.pdf (30 pages, 845386 bytes).
 PDF statistics:
- 940 PDF objects out of 1000 (max. 8388607)
- 763 compressed objects within 8 object streams
+ 934 PDF objects out of 1000 (max. 8388607)
+ 760 compressed objects within 8 object streams
  232 named destinations out of 1000 (max. 500000)
  108 words of extra memory for PDF output out of 10000 (max. 10000000)
 

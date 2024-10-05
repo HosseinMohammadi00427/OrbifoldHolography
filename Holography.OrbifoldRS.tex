@@ -298,7 +298,8 @@ For the case of puncture, one can also see that the proper automorphic function 
 \begin{equation}
 f(Z)=r~e^{\varphi(z)/2} +\mathcal{O}\bigg(r^3 \big((z-z_i)\log|z-z_i
 %/J_{1}^{(i)}
-|\big)^{-1}(\gamma'''(z_i)/3\gamma'(z_i))\bigg)~~~~~ \text{as} ~~r\rightarrow 0.\label{fpuncture}
+|\big)^{-1}(\gamma'''(z_i)/3\gamma'(z_i))\bigg)~~~~~ \text{as} ~~r\rightarrow 0.
+\label{fpuncture}
 \end{equation}
 Based on equations \eqref{fcompact}, \eqref{fconical}, and \eqref{fpuncture}, it's important to note that the leading behavior of the function $f$ is the same for both the compact and non-compact cases. Furthermore, the level surface $f=\varepsilon$ intersects the points $(z_i,0)$s, making it non-compact. Therefore, to use  $f$ as a level-defining function for the truncated fundamental region\footnote{See Appendix.\ref{homology}.} $R\cap\{f=\varepsilon\}$, it is necessary to remove neighborhoods around the points $(z_i,0)$s in $\mathbb{U}^3$. As a result, the regularized truncated fundamental region should be defined as follows:
 \begin{equation}
@@ -771,7 +772,7 @@ We have also shown that the relationship between changes in the logarithm of the
 When a generator $L_k\in\Sigma$ acts on a singular point $z_i$
 within a specific fundamental domain $\singfund$, it maps the point to another singularity with the same ramification index but in a different domain. Although the fundamental domain $\singfund$ changes, the radius $\tilde\delta$ used in the calculation of the functional $\Gpotential_{\boldsymbol{m}}$ remains invariant. This invariance can be seen easily by noting that under $z_j \rightarrow L_k(z_j)$ we have (see \cite{Taghavi2024classical} for more details)
 \begin{equation}
-\delta \rightarrow \delta/\left|L'_k(z_j)\right|,\hspace{1cm}\left|J_{1}^{(j)}\right| \rightarrow \left|J_1^{j}\right| \left|L'_k(z_j)\right|.\nonumber
+\delta \rightarrow \delta/\left|L'_k(z_j)\right|,\hspace{1cm}\left|J_{1}^{(j)}\right| \rightarrow \left|J_1^{(j)}\right| \left|L'_k(z_j)\right|.\nonumber
 \end{equation}
 Since  $\Gpotential_{\boldsymbol{m}}$ is connected to the spectrum of the operator  $-\log\det\Delta$, this implies that the spectrum remains unchanged when different representatives of $\Sigma.\{z_1,...,z_n\}$ are chosen. In other words, the orbifold Riemann surfaces corresponding to different representatives are isospectral. Additionally, this indicates that these orbifold Riemann surfaces share the same lengths of closed geodesics since it has been demonstrated that in \cite{doyle2006isospectral}, and more broadly through the Selberg Trace Formula,  that two-dimensional hyperbolic surfaces, including both manifolds and orbifolds, that are isospectral have matching geodesics.
 % Although the function $-\log\det\Delta$ does not capture the conformal differences between these isospectral surfaces (but non-isometric surfaces), the functional  $\Gpotential_{\boldsymbol{m}}$ can reveal their geometric and conformal distinctions, reflecting their distinct positions in the moduli space and their underlying geometry. Since the functional $\Gpotential_{\boldsymbol{m}}$ is linked to bulk geometries through the renormalized volume, its sensitivity becomes essential. It aids in distinguishing truly distinct geometries behind the horizons, thus preventing the overcounting of states in the calculation of black hole entropy.\footnote{The concept of interpreting the Liouville action functional as a measure of (computational) complexity is also employed by Caputa, Kundu, Miyaji, Takayanagi, and Watanabe in \cite{caputa2017anti}.}
@@ -941,16 +942,20 @@ H^{\bullet}(M,\mathbb{C}) \cong H^{\bullet}(\Gamma,\mathbb{C}) \cong H^{\bullet}
 These isomorphisms imply that the pairing \eqref{pairing} is a non-degenerate pairing between the corresponding cohomology and homology groups $H^{\bullet}((\text{Tot}\compfont{C})^\bullet)$ and $H_{\bullet}((\text{Tot}\compfont{K})_\bullet)$. Specifically, if $\tilde\omega$ is a cocycle in $(\text{Tot}\compfont{C})^{\bullet}$ and $c$ is a cycle in $(\text{Tot}\compfont{K})_\bullet$, the pairing $\stks{\tilde\omega,c}$ depends only on the cohomology class $[\tilde\omega]$ and the homology class $[c]$, not on their individual representatives. 
 \subsection{Homology in bulk: homology group and group homology}\label{homology}
 In this subsection, we delve into the specifics of the  double homology complex of $\mathbb{U}^3$ in presence of singularities (massive particles) within the context of Schottky uniformization. To aid in understanding, in the following it's useful to visualize the case for genus  $g=2$ --- refer to Figures \ref{fig:1} and \ref{fig:2} for clarity.
+
+
 \begin{figure}[h]
-\centering
-\includegraphics[width=14em]{Pics/1.png}
-\caption{Fundametnal domain of Schottky uniformization in presence of punctures and conical points for $g=2$. The red circle indicate cutting a small circle of radius \textcolor{red}{$\delta$} from the fundamental domain, centerd at puncture or conical points. The blue region is the fundamental domain \textcolor{red}{$\singfund_{\delta}$}.}
-\label{fig:1}
+	\centering
+	\includegraphics[width=18em]{Pics/1.png}
+	\caption{Fundametnal domain of Schottky uniformization in presence of punctures and conical points for $g=2$. The red circle indicate cutting a small circle of radius $\delta$ from the fundamental domain, centerd at puncture or conical points. The blue region is the fundamental domain $\singfund_{\delta}$}.
+	\label{fig:1}
 \end{figure}
+
+
 \begin{figure}[h]
 \centering
-\includegraphics[width=18em]{Pics/2.png}
-\caption{The three dimensional extension of fundamental domain \textcolor{red}{$\singfund_{\delta}$} in Figure \ref{fig:1}. \textcolor{red}{Correct the color for the fundamenal domain $\singfund_{\delta}$}.}
+\includegraphics[width=30em]{Pics/2p.png}
+\caption{The three dimensional extension of fundamental domain $\singfund_{\delta}$ in Figure \ref{fig:1}.}
 \label{fig:2}
 \end{figure}
 
@@ -989,8 +994,8 @@ serves as an extension of the fundamental domain $\SchottkyFund$ (see \cite{aldr
 Adding punctures and conical points to the fundamental domain $\SchottkyFund$, amounts to cutting spheres around them, shown in Figure \ref{fig:2}. As demonstrated in Section \ref{Renvolume} (see also \cite{park2017potentials}), the regularizing surface $f=\varepsilon$   intersects the singularities, therefore to have it as a level-defining function we also need to remove the neighborhoods of each singularity at $(z_i,0)$ in $\mathbb{U}^3$.
 \begin{figure}[h]
 \centering
-\includegraphics[width=23em]{Pics/3.png}
-\caption{The regularizing surface $f(Z)$ which cuts through the fundamental region. \textcolor{red}{Substitute t with r. and order $r^3...$.}}
+\includegraphics[width=30em]{Pics/3p.png}
+\caption{The regularizing surface $f(Z)$ which cuts through the fundamental region.}
 \label{fig:3}
 \end{figure}
 For $\varepsilon>0$, let
