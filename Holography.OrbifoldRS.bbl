@@ -18,7 +18,7 @@ J.~Park, L.A.~Takhtajan and L.-P.~Teo, \emph{{Potentials and Chern forms for
   {\emph{Advances in Mathematics} {\bfseries 305} (2017) 856}.
 
 \bibitem{krasnov2000holography}
-K.~Krasnov, \emph{Holography and riemann surfaces}, {\emph{arXiv preprint
+K.~Krasnov, \emph{{Holography and Riemann surfaces}}, {\emph{arXiv preprint
   hep-th/0005106} (2000) }.
 
 \bibitem{Takhtajan_2003}
@@ -143,18 +143,29 @@ V.~Kalvin, \emph{{Polyakov-Alvarez type comparison formulas for determinants of
   Laplacians on Riemann surfaces with conical singularities}}, {\emph{Journal
   of Functional Analysis} {\bfseries 280} (2021) 108866}.
 
+\bibitem{buser2010some}
+P.~Buser, J.~Conway, P.~Doyle and K.-D.~Semmler, \emph{Some planar isospectral
+  domains}, {\emph{arXiv preprint arXiv:1005.1839} (2010) }.
+
+\bibitem{vigneras1980varietes}
+M.-F.~Vign{\'e}ras, \emph{Vari{\'e}t{\'e}s riemanniennes isospectrales et non
+  isom{\'e}triques}, {\emph{Annals of Mathematics} {\bfseries 112} (1980) 21}.
+
+\bibitem{sunada1985riemannian}
+T.~Sunada, \emph{Riemannian coverings and isospectral manifolds}, {\emph{Annals
+  of Mathematics} {\bfseries 121} (1985) 169}.
+
 \bibitem{gordon1992one}
 C.~Gordon, D.L.~Webb and S.~Wolpert, \emph{{One cannot hear the shape of a
   drum}}, {\emph{Bulletin of the American Mathematical Society} {\bfseries 27}
   (1992) 134}.
 
-\bibitem{caputa2017anti}
-P.~Caputa, N.~Kundu, M.~Miyaji, T.~Takayanagi and K.~Watanabe, \emph{{Anti--de
-  sitter space from optimization of path integrals in conformal field
-  theories}}, {\emph{Physical Review Letters} {\bfseries 119} (2017) 071602}.
+\bibitem{doyle2006isospectral}
+P.G.~Doyle and J.P.~Rossetti, \emph{Isospectral hyperbolic surfaces have
+  matching geodesics}, {\emph{arXiv preprint math/0605765} (2006) }.
 
 \bibitem{henningson1998holographic}
-M.~Henningson and K.~Skenderis, \emph{The holographic weyl anomaly},
+M.~Henningson and K.~Skenderis, \emph{{The holographic Weyl anomaly}},
   {\emph{Journal of High Energy Physics} {\bfseries 1998} (1998) 023}.
 
 \bibitem{Maskit_1967}

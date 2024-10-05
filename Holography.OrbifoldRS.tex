@@ -1,4 +1,3 @@
-%This is Hossein's Version of the paper.
 \documentclass[a4paper,11pt]{article}
 \pdfoutput=1 % if your are submitting a pdflatex (i.e. if you have
              % images in pdf, png or jpg format)
@@ -161,7 +160,7 @@ To begin, let's first recall the simplest case of the AdS space itself. The adju
 \end{equation}
 where the conformal boundary located at $r=0$ and $z$ is holomorphic coordinate on it. The isometry group of the metric \eqref{AdS3} is $\PSLC$ and let denote the it by $\Gamma$. To construct the $\Gamma$-invariant cutoff surface $f$, one needs the explicit form of the $\PSLC$-action on $\mathbb{U}^3$ which is defined via utilizing quaternionic numbers. Let represent the $Z =(z,r) \in \mathbb{U}^3$ by a quaternion 
 \begin{equation}
-\mathbf{Z} = x.\mathbf{1} + y.\mathbf{i}+t.\mathbf{j},
+\mathbf{Z} = x.\mathbf{1} + y.\mathbf{i}+r.\mathbf{j},
 \end{equation}
 where 
 \begin{equation}
@@ -317,7 +316,14 @@ However, since the point $L_k z_j$ has the same branching number $m_i$, the radi
 \begin{equation}
 R_{\varepsilon} = R\cap\{f=\varepsilon\}\backslash \bigcup_{j=1}^{n}\big{\{}(z,r)\in\mathbb{U}^3\big| ~|(z,r)-(z_j,0)| \leq \Big|J_{1}^{(j)}\Big|\hspace{.5mm}\varepsilon\big{\}}.\label{Repsilon}
 \end{equation}
-It is crucial to highlight that the cutoff surface $f(Z) = \varepsilon$ must adjust to the local geometry near the conical singularities, forming a shape that reflects the angular deficit, as outlined in equations \eqref{fconical} and \eqref{fpuncture}. While it deforms locally around the singularities,  the cutoff surface should globally align with the symmetry pattern imposed by the Schottky group (a subgroup of $\PSLC$) in smooth regions of the space, as indicated in equation \eqref{fcompact}. Additionally, it is important to keep in mind during the subsequent calculations that we first cut out the areas around the conical singularities and punctures, focusing solely on the behavior of the field $\varphi$ near them. We then uniformize the remaining surface using the standard Schottky group. Consequently, the group utilized for constructing the (co)homology double complexes will be the standard Schottky group.  If we had generated the conical singularities and punctures using the extended Schottky group, incorporating elliptic and parabolic elements, we would need to develop double complexes for this extended group as well. Now, with the appropriate function $f$ determined for each case, we can proceed to the detailed calculation of the renormalized volume of the corresponding three-dimensional Schottky manifold $M$ with lines of conical singularities and a conformal boundary $X= \singrigon\slash\Sigma$, where the fundamental domain of $\singrigon$ will be denoted by $\singfund_{\varepsilon}$.
+It is crucial to highlight that the cutoff surface $f(Z) = \varepsilon$ must adjust to the local geometry near the conical singularities, forming a shape that reflects the angular deficit, as outlined in equations \eqref{fconical} and \eqref{fpuncture}. While it deforms locally around the singularities,  the cutoff surface should globally align with the symmetry pattern imposed by the Schottky group (a subgroup of $\PSLC$) in smooth regions of the space, as indicated in equation \eqref{fcompact}. Additionally, it is important to keep in mind during the subsequent calculations that we first cut out the areas around the conical singularities and punctures and then uniformize the remaining surface using the standard Schottky group. Consequently, the group used for constructing the (co)homology double complexes will be the standard Schottky group, while the local information remains encoded in the behavior of the field 
+$\varphi$ near the singularities. If we had generated the conical singularities and punctures using the extended Schottky group, incorporating elliptic and parabolic elements, we would need to develop double complexes for this extended group as well.
+
+
+
+
+
+Now, with the appropriate function $f$ determined for each case, we can proceed to the detailed calculation of the renormalized volume of the corresponding three-dimensional Schottky manifold $M$ with lines of conical singularities and a conformal boundary $X= \singrigon\slash\Sigma$, where the fundamental domain of $\singrigon$ will be denoted by $\singfund_{\varepsilon}$.
 
 To compute the area term
 $A_{\varepsilon}$ we require the induced metric on the regularizing cutoff surface $f(Z)=\varepsilon$ which takes the following form:
@@ -519,7 +525,7 @@ T_1  = 4\pi \sum_{j=1}^{n_e} \left(   (\frac{1}{m_j}-\frac{1}{m_j^2}) \log \left
 \end{equation}
 and
 \begin{equation}
-T_2 = 2\pi \sum_{j=1}^{ne} (1-\frac{1}{m_j^2}) \log\left|J_{1}^{(j)}\right| +2\pi \sum_{j=n_e+1}^{n} \log\left|J_{1}^{(j)}\right|.
+T_2 \overset{\eqref{loghj}}{=} 2\pi \sum_{j=1}^{ne} (1-\frac{1}{m_j^2}) \log\left|J_{1}^{(j)}\right| +2\pi \sum_{j=n_e+1}^{n} \log\left|J_{1}^{(j)}\right|.
 \end{equation}
 Accordingly the $\mathscr{S}_{\boldsymbol{m}} $ in \eqref{renvol} becomes
 \begin{multline}
@@ -578,6 +584,12 @@ This indicates that the generalized Liouville action functional $\mathscr{S}_{\b
 of Shottky group $\Sigma$ 
 in $\singrigon$, as long as $\singfund$  is the boundary of a fundamental region of $\Sigma$ in 
 $R_{\varepsilon}\cup \singrigon $.
+\section{Renormalized Length of Boundary-Bulk-Boundary Geodesic}
+
+\textcolor{red}{\begin{equation}
+4 \hspace{1mm}\text{Length}(l) = \sqrt{-1} \hspace{1mm} \sum_{j=1}^{2} \log \Lponetial_{j} =\sqrt{-1}\hspace{1mm}\frac{1}{m_j h_j} \log H.  ???
+\end{equation}}
+
 \section{Integrated Polyakov anomaly and Generalized Liouville Action}\label{Section3}
 In this section, we show that, under conformal transformations, the variations in the function $\Gpotential_{\boldsymbol{m}}$ and its dual renormalized hyperbolic volume are equivalent to the integrated Polyakov anomaly for orbifold Riemann surfaces, as previously derived in \cite{aldana2020polyakov}. The approach we used to establish this equivalency allows us to propose the integrated Polyakov anomaly for punctured Riemann surfaces, regardless of whether they have conical singularities.
 
@@ -646,15 +658,17 @@ Moreover, in this case, the function $H$ in equation \eqref{renvol} is modified 
 \mathsf{H}[\varphi] = \Lponetial_{1}^{m_1h_1}\dotsm\Lponetial_{n_e}^{m_{n_e} h_{n_e}}\Lponetial_{n_e+1}\dotsm\Lponetial_{n-1}\Lponetial^{-1}_{n},\label{H2}
 \end{equation}
 where (see Remark 3.10 in \cite{Taghavi2024classical})
-\begin{equation}
+\begin{equation}\label{loghj}
 \left\{
 \begin{split}
 & \log \Lponetial_{j} = -2 \log m_j + 2 \log 2 - \lim_{z \to z_{j}}\left(\varphi(z) + \left(1-\frac{1}{m_j}\right) \log|z-z_{j}|^2\right), \hspace{.2cm} j=1,\dots,n_e,\\ \\
 &\log \Lponetial_{j} = \lim_{z \to z_{i}} \left(\log|z-z_{j}|^2 - \frac{2 e^{-\frac{\varphi(z)}{2}}}{|z-z_{j}|}\right),\hspace{2cm}  j=n_e+1,\dots,n-1,\\
-& \log \Lponetial_{n} = \lim_{z \to \infty} \left(\log|z|^2 - \frac{2 e^{-\frac{\varphi(z)}{2}}}{|z|}\right).\label{loghj}
+& \log \Lponetial_{n} = \lim_{z \to \infty} \left(\log|z|^2 - \frac{2 e^{-\frac{\varphi(z)}{2}}}{|z|}\right).
 \end{split}
 \right.
 \end{equation}
+with $\Lponetial_j = \left| J^{(j)}_{1} \right|^{\frac{2}{m_j}}$ for $j=1,\dots,n_e$,  $\Lponetial_{j} =\left| J^{(j)}_{1} \right|^{2}$ for $j=n_e+1,\dots,n-1$ and $\Lponetial_{n}= \left| J^{(n)}_{-1} \right|^2$ for $j=n$.
+
 Let us first consider the case where there are no puncture (i.e., $n_p=0$).  It is easy to see that
 \begin{equation}
 \pi \log \mathsf{H}[\varphi+\sigma]-\pi \log \mathsf{H}[\varphi] = -\pi \sum_{j=1}^{n_e} m_j h_j~ \sigma(z_j).\label{q6}
@@ -743,14 +757,24 @@ where $M_i$ is basis element for harmonic differentials in $\Hilbert^{-1,1}(\sin
 According to Theorem 1 and Theorem 2 in \cite{Taghavi2024classical}, the function $\Gpotential_{\boldsymbol{m}}$ satisfies the following equations:
 \begin{equation}
 \begin{split}
-&\partial \Gpotential_{\boldsymbol{m}} = 2 \mathscr{Q},\\&\bar{\partial} \partial \Gpotential_{\boldsymbol{m}} = 2\sqrt{-1}\left(\omega_{\text{WP}}-\frac{4\pi^2}{3} \omega^{\text{\text{cusp}}}_{\text{TZ}}- \frac{\pi}{2} \sum_{j=1}^{n_e} m_j h_j \hspace{.5mm}\omega^{\text{\text{ell}}}_{\text{TZ},j}\right).\label{derivativesL}
+&\partial \Gpotential_{\boldsymbol{m}} = 2 \mathscr{Q},\\&\bar{\partial} \partial \Gpotential_{\boldsymbol{m}} = 2\sqrt{-1}\left(\omega_{\text{WP}}-\frac{4\pi^2}{3} \omega^{\text{\text{cusp}}}_{\text{TZ}}- \frac{\pi}{2} \sum_{j=1}^{n_e} m_j h_j \hspace{.5mm}\omega^{\text{\text{ell}}}_{\text{TZ},j}\right),\label{derivativesL}
 \end{split}
 \end{equation}
-Given that the functional $\Gpotential_{\boldsymbol{m}}$ is linked to the renormalized volume, or equivalently, to the renormalized Einstein-Hilbert action with massive particles, it is important to examine the significance of its first and second derivatives in equation \eqref{derivativesL}. These derivatives could correspond to key physical concepts in the bulk, such as black hole thermodynamics, intensive and extensive quantities, stability of black hole solutions, phase transitions between different gravitational configurations and counting microscopic states of the black hole (which leads to its entropy). Additionally, they contribute to the broader aim of quantum gravity, which seeks to uncover the quantum structure of spacetime and the nature of black hole singularities.
+where $\omega_{\text{WP}}$ and $(\omega^{\text{\text{cusp}}}_{\text{TZ}},\omega^{\text{\text{ell}}}_{\text{TZ}})$ are Weil--Petersson and Takhtajan--Zograf metrics, respectively. Given that the functional $\Gpotential_{\boldsymbol{m}}$ is linked to the renormalized volume, or equivalently, to the renormalized Einstein-Hilbert action with massive particles, it is important to examine the significance of its first and second derivatives in equation \eqref{derivativesL}. These derivatives could correspond to key physical concepts in the bulk, such as black hole thermodynamics, intensive and extensive quantities, stability of black hole solutions, phase transitions between different gravitational configurations and counting microscopic states of the black hole (which leads to its entropy). Additionally, they contribute to the broader aim of quantum gravity, which seeks to uncover the quantum structure of spacetime and the nature of black hole singularities.
 
 
 
-We have also shown that the relationship between changes in the logarithm of the determinant of the Laplacian and the Liouville action under conformal transformations, as observed by Takhtajan and Teo in \cite{Takhtajan_2003} for compact Riemann surfaces, can be extended to orbifold Riemann surfaces using the generalized Liouville action $\Gpotential_{\boldsymbol{m}}$. As discussed in the introduction, these relationships are two sides of the same coin—namely, uniformization theory. However, they also reveal deeper insights. It is important to highlight that surfaces with different shapes or geometries can have identical Laplace spectra (i.e., the same eigenvalues), known as isospectral surfaces. A well-known example is provided by Gordon, Webb, and Wolpert \cite{gordon1992one}, where two distinct plane domains, shaped as different polygons, share the same Laplace spectrum.\footnote{These two surfaces are not related by any rigid transformation (like rotation or reflection).} For such isospectral surfaces, the value of $-\log\det\Delta$ is the same, which, in the framework of Osgood, Phillips, and Sarnak, suggests they have the same height and hence similar complexity. Although the function $-\log\det\Delta$ does not capture the conformal differences between these isospectral surfaces, the functional  $\Gpotential_{\boldsymbol{m}}$ can reveal their geometric and conformal distinctions, reflecting their distinct positions in the moduli space and their underlying geometry. Since the functional $\Gpotential_{\boldsymbol{m}}$ is linked to bulk geometries through the renormalized volume, its sensitivity becomes essential. It aids in distinguishing truly distinct geometries behind the horizons, thus preventing the overcounting of states in the calculation of black hole entropy.\footnote{The concept of interpreting the Liouville action functional as a measure of (computational) complexity is also employed by Caputa, Kundu, Miyaji, Takayanagi, and Watanabe in \cite{caputa2017anti}.}
+We have also shown that the relationship between changes in the logarithm of the determinant of the Laplacian and the Liouville action under conformal transformations, as observed by Takhtajan and Teo in \cite{Takhtajan_2003} for compact Riemann surfaces, can be extended to orbifold Riemann surfaces using the generalized Liouville action $\Gpotential_{\boldsymbol{m}}$. As discussed in the introduction, these relationships are two sides of the same coin—namely, uniformization theory. However, they also reveal deeper insights. It is important to highlight that surfaces with different shapes or geometries can have identical Laplace spectra (yielding the same value for $-\log\det\Delta$), known as isospectral surfaces.\footnote{An example of isospectral surfaces with hyperbolic metrics can be found in the classical constructions by Buser, Conway, Doyle, and Semmler \cite{buser2010some}, who provided examples of isospectral but non-isometric surfaces. See also \cite{vigneras1980varietes,sunada1985riemannian,gordon1992one}.} A natural question that arises is how these surfaces are understood through the lens of the functional $\Gpotential_{\boldsymbol{m}}$. To explore this, let’s consider two representatives of the set $\Sigma.\{z_1,...,z_n\}$. By choosing different generators for the Schottky group, one can obtain distinct fundamental domains that, although topologically identical, describe different conformal structures on the same Riemann surface. These variations are linked to distinct points on the moduli (or Schottky) space. Now, consider how the functional $\Gpotential_{\boldsymbol{m}}$ behaves in these cases. According to equation \eqref{Sreg3}, the effective fundamental domain for calculating  $\Gpotential_{\boldsymbol{m}}$ is given by
+\begin{equation}
+\singfund_{\tilde\delta} = \singfund\backslash \bigcup_{j=1}^n \Big{\{} z\Big|~|z-z_j| < \left|J_1^{(j)}\right| \delta\Big{\}}.\label{D1}\nonumber
+\end{equation}
+When a generator $L_k\in\Sigma$ acts on a singular point $z_i$
+within a specific fundamental domain $\singfund$, it maps the point to another singularity with the same ramification index but in a different domain. Although the fundamental domain $\singfund$ changes, the radius $\tilde\delta$ used in the calculation of the functional $\Gpotential_{\boldsymbol{m}}$ remains invariant. This invariance can be seen easily by noting that under $z_j \rightarrow L_k(z_j)$ we have (see \cite{Taghavi2024classical} for more details)
+\begin{equation}
+\delta \rightarrow \delta/\left|L'_k(z_j)\right|,\hspace{1cm}\left|J_{1}^{(j)}\right| \rightarrow \left|J_1^{j}\right| \left|L'_k(z_j)\right|.\nonumber
+\end{equation}
+Since  $\Gpotential_{\boldsymbol{m}}$ is connected to the spectrum of the operator  $-\log\det\Delta$, this implies that the spectrum remains unchanged when different representatives of $\Sigma.\{z_1,...,z_n\}$ are chosen. In other words, the orbifold Riemann surfaces corresponding to different representatives are isospectral. Additionally, this indicates that these orbifold Riemann surfaces share the same lengths of closed geodesics since it has been demonstrated that in \cite{doyle2006isospectral}, and more broadly through the Selberg Trace Formula,  that two-dimensional hyperbolic surfaces, including both manifolds and orbifolds, that are isospectral have matching geodesics.
+% Although the function $-\log\det\Delta$ does not capture the conformal differences between these isospectral surfaces (but non-isometric surfaces), the functional  $\Gpotential_{\boldsymbol{m}}$ can reveal their geometric and conformal distinctions, reflecting their distinct positions in the moduli space and their underlying geometry. Since the functional $\Gpotential_{\boldsymbol{m}}$ is linked to bulk geometries through the renormalized volume, its sensitivity becomes essential. It aids in distinguishing truly distinct geometries behind the horizons, thus preventing the overcounting of states in the calculation of black hole entropy.\footnote{The concept of interpreting the Liouville action functional as a measure of (computational) complexity is also employed by Caputa, Kundu, Miyaji, Takayanagi, and Watanabe in \cite{caputa2017anti}.}
 
 It's useful to also provide a remark on the various logarithmic divergent terms in the definition of $V_{\text{ren}}$ in equation \eqref{Vren}. For a CFT with an energy-momentum tensor $T_{\mu\nu}$ and central charge $c$ on an orbifold Riemann surface, the integrated conformal anomaly remains proportional to the Euler characteristic of the surface, expressed as:
 \begin{equation}
@@ -773,6 +797,7 @@ the conformal anomaly \eqref{CA2} can be connected to the following counterterm:
 S_{\text{ct}}= \frac{1}{8\pi G_N} \iint_{\singfund_{\tilde\delta}}  e^\varphi  d^2z\hspace{1mm} \log\varepsilon.\label{Sct}
 \end{equation} 
 This is where the first logarithmic term, containing the Euler characteristic in the definition of $V_{\text{ren}}$, conceptually differs from the other two logarithmic divergent terms, which are field-independent. The counterterm \eqref{Sct} is field-dependent because the anomaly arises from changes in the underlying geometry or field configuration under a conformal transformation, which is captured by the field $\varphi$. In contrast, field-independent terms, which do not depend on the conformal factor or metric, are constants and do not influence the specific way the theory changes under conformal transformations.
+
 
 
 

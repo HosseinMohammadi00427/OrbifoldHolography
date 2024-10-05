@@ -1,9 +1,10 @@
-\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
-\contentsline {section}{\numberline {2}Renormalized Volume and Holography Principle}{3}{section.2}
-\contentsline {section}{\numberline {3}Integrated Polyakov anomaly and Generalized Liouville Action}{12}{section.3}
-\contentsline {section}{\numberline {4}Conclusion}{16}{section.4}
-\contentsline {section}{\numberline {A}Asymptotic form of $\varphi $ near punctures and conical points}{19}{appendix.A}
-\contentsline {section}{\numberline {B}Schottky uniformization of orbifold Riemann surfaces}{19}{appendix.B}
-\contentsline {section}{\numberline {C}Details of (co)Homology Double Complexes}{21}{appendix.C}
-\contentsline {subsection}{\numberline {C.1}Homology in bulk: homology group and group homology}{23}{subsection.C.1}
-\contentsline {subsection}{\numberline {C.2}Cohomology in bulk: cohomology group and group cohomology}{25}{subsection.C.2}
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Renormalized Volume and Holography Principle}{3}{section.2}%
+\contentsline {section}{\numberline {3}Renormalized Length of Boundary-Bulk-Boundary Geodesic}{12}{section.3}%
+\contentsline {section}{\numberline {4}Integrated Polyakov anomaly and Generalized Liouville Action}{12}{section.4}%
+\contentsline {section}{\numberline {5}Conclusion}{16}{section.5}%
+\contentsline {section}{\numberline {A}Asymptotic form of $\varphi $ near punctures and conical points}{19}{appendix.A}%
+\contentsline {section}{\numberline {B}Schottky uniformization of orbifold Riemann surfaces}{20}{appendix.B}%
+\contentsline {section}{\numberline {C}Details of (co)Homology Double Complexes}{21}{appendix.C}%
+\contentsline {subsection}{\numberline {C.1}Homology in bulk: homology group and group homology}{23}{subsection.C.1}%
+\contentsline {subsection}{\numberline {C.2}Cohomology in bulk: cohomology group and group cohomology}{26}{subsection.C.2}%
